@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Basis-typografi og baggrund */
+body {
+  @apply bg-jule-cream text-gray-800;
+  font-family: Georgia, Cambria, serif;
+}
+
+/* Scrollbar-styling (Webkit) */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-gray-100;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-jule-green/40 rounded-full;
+}
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-jule-green/60;
+}
