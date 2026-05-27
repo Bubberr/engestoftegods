@@ -1,7 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(Remove-Item -Recurse -Force \"D:\\\\4.sem\\\\ai-project\\\\christmas-market\\\\src\", \"D:\\\\4.sem\\\\ai-project\\\\christmas-market\\\\.idea\", \"D:\\\\4.sem\\\\ai-project\\\\christmas-market\\\\pom.xml\", \"D:\\\\4.sem\\\\ai-project\\\\christmas-market\\\\.gitignore\")"
-    ]
-  }
-}
